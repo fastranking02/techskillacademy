@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+a.navbar-brand{
+    color: #0060af;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+}
+a.navbar-brand:hover{
+    color: #0060af;
+}
+a.header_login_btn{
+    text-decoration: none;
+    background-color: #0060af;
+    color: white;
+    padding: 12px 30px;
+}
+a.header_login_btn:hover{
+    color: white;
+}
+.top_header{
+    background-color: #0060af;
+    padding: 8px 0;
+}
+ul.icon_list li {
+    list-style-type: none;
+}
+ul.icon_list li a {
+    color: white;
+    text-decoration: none;
+}
+ul.icon_list {
+    padding-inline-start: 0;
+    display: flex;
+    gap: 25px;
+    margin-bottom: 0px;
+}
+.th-right ul.icon_list {
+    justify-content: flex-end;
+}
+.th-left ul.icon_list li a span:first-child{
+    margin-right: 10px;
+}
+.header{
+    padding: 15px 0;
+    border-bottom: 1px solid #dddddd86;
+}
+.submit_btn{
+    width: 100%;
+    background-color: #0060af;
+    color: white;
+    border-radius: 0;
+    margin-top: 25px;
+}
+.form-control, .form-select {
+    border-radius: 0;
+}
+input, select{
+    margin-bottom: 15px;
+}
+.left_cont_area{
+    height: 100%;
+    align-content: center;
+}
+.left_cont_area h1{
+    font-weight: bold;
+}
+.left_cont_area h5 {
+    color: #666;
+    margin-top: 10px;
+}
+a.custom-btn{
+    text-decoration: none;
+    color: #fff;
+    background-color: #0060af;
+    padding: 12px 30px;
+    margin-top: 20px;
+    display: inline-block;
+    transition: all 0.5s;
+}
+/* a.custom-btn:hover{
+    letter-spacing: 1px;
+    transition: all 0.5s;
+} */
+.main_banner_overlay .container{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.main_banner {
+    height: 95vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main_banner_overlay {
+    height: 95vh;
+    align-content: center;
+}
+.sec_heading {
+    margin-bottom: 40px;
+}
+.sec_heading h3{
+    font-weight: bold;
+}
+section.course{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.cour_img{
+    aspect-ratio: 3/2;
+    margin-bottom: 25px;
+}
+.course_details h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.course_details{
+    padding: 0 15px 20px 15px;
+}
+.time_duration {
+    color: #999;
+    text-align: right;
+}
+.single_course{
+    border: 1px solid #ddd;
+    overflow: hidden;
+}
+footer {
+    background-color: #0060af;
+    color: white;
+}
+.footer_block ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.footer_block ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer_block ul li span {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    color: #0060af;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.pt-equal{
+    padding-top: 20px;
+}
+.login_pannel{
+    height: 75vh;
+    align-content: center;
+}
+.login_form{
+    border: 1px solid #0060af;
+    padding: 45px 20px;
+}
+.submit_btn.login_btn:hover{
+    background-color: #0060af;
+}
+
+
+.user_icon figure{
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+}
+.dash-bg{
+    background-color: #0060af;
+}
+.user_icon{
+    display: flex;
+    justify-content: center;
+}
+.user_profile{
+    border-bottom: 1px solid #dddddd6b;
+    height: 290px;
+}
+.user_details{
+    border-right: 1px solid #dddddd6b;
+    padding-right: 40px;
+    position: sticky;
+    top: 50px;
+}
+.about_user ul li{
+    list-style-type: none;
+    margin-bottom: 10px;
+    background-color: #ececec;
+    color: black;
+    padding: 10px 15px;
+}
+
+
+.new-user-link{
+    color: #222;
+    text-decoration: none;
+}
+.new-user-link:hover{
+    color: #0060af;
+    text-decoration: underline;
+}
+
+
+.new_user_pannel{
+    height: 75vh;
+    align-content: center;
+}
+.register_btn:hover{
+    background-color: #0060af;
+}
+
+
+.about{
+    padding-top: 30px;
+}
+.benifits{
+    background-color: #0060af;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+ul.points{
+    padding-inline-start: 0;
+    padding-left: 15px;
+}
+.adv{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.h4-heading{
+    font-weight: bold;
+}
+figure{
+    position: relative;
+}
+figure img{
+    padding-top: 50px;
+}
+.bg-frame{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    border: 3px solid orange;
+    border-radius: 50%;
+    position: absolute;
+    left: -72px;
+    z-index: -1;
+}
+
+.about-page{
+    padding-bottom: 60px;
+}
+.inner-page-banner{
+    background-color: #0060af;
+}
+
+.footer_block.get-in-toucch ul li span {
+    border: 1px solid #0060af !important;
+}
+
+.item a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+.course_banner{
+    background-color: #f2f6fd;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-bottom: 60px;
+}
+
+.course_benefits{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-inline-start: 0;
+    column-gap: 30px;
+}
+.course_benefits li{
+    list-style-type: none;
+    margin-bottom: 12px;
+    display: flex;
+    gap: 15px;
+}
+ul.skills_list{
+    padding-inline-start: 0px;
+    display: flex;
+    gap: 15px;
+}
+ul.skills_list li{
+    list-style-type: none;
+}
+ul.skills_list li span{
+    background-color: #e8eef7;
+    padding: 10px 15px;
+    color: #111;
+}
+
+.bg-light_color{
+    width: 580px;
+    height: 100%;
+    background-color: #e3eeff;
+    /* border-radius: 50%; */
+    position: relative;
+    border-radius: 0 0 0 85px;
+}
+.bg_light{
+    display: flex;
+    position: absolute;
+    justify-content: right;
+    overflow: hidden;
+    top: 0px;
+    right: -80px;
+    height: 100%;
+}
+.cert_sample{
+    position: absolute;
+    top: -30px;
+    right: 75px;
+}
+.cert{
+    margin-bottom: 150px;
+    margin-top: 95px;
+}
+.certificate_box{
+    border: 1px solid #e3eeff;
+    padding: 0 20px;
+}
+.cert_img{
+    position: relative;
+    height: 100%;
+}
+.cert_content{
+    padding: 20px 0;
+}
+.cert_sample img{
+    box-shadow: 0px 0px 15px #eee;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 0px;
+    border-color: transparent;
+}
+
+ul.dropdown-menu{
+    border-radius: 0;
+}

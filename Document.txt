@@ -1,0 +1,4 @@
+color: #0060af //Blue
+color: #f4f7fa //For Background
+
+bg-body-tertiary
